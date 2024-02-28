@@ -43,6 +43,7 @@ export const productListReducer = (state = { products: [] }, action) => {
   }
 }
 
+// 3-product: state change {product} after real dispatch
 export const productDetailsReducer = (
   state = { product: { reviews: [] } },
   action

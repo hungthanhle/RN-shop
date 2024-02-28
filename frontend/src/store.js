@@ -31,6 +31,7 @@ import {
 
 const reducer = combineReducers({
   productList: productListReducer,
+  // 3-product: state {productDetails} change after real dispatch
   productDetails: productDetailsReducer,
   productDelete: productDeleteReducer,
   productCreate: productCreateReducer,
